@@ -1,0 +1,97 @@
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.box {
+    display: grid;
+    background-color:#fff;
+    border: 1px solid grey;
+    grid-template-columns: auto 300px 300px auto;
+    grid-template-rows: 200px;
+    grid-gap: 20px;
+    font-family: "Open Sans", "Trebuchet MS", arial, verdana, sans-serif;
+    margin: 20px 150px;
+    padding-top: 200px;
+    padding-bottom: 400px;
+    border-radius: 4px;
+}
+
+.box > div  {
+    background-color: rgb(177, 147, 147);
+    border: 1px solid grey;
+    background: white;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 8px;
+    line-height: 1em;
+    letter-spacing: -1px;
+    
+}  
+
+.box > div h1 {
+    font-size: 24px;
+}
+
+.box > div h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: lightgrey;
+}
+
+.box div p {
+    color: grey;
+    font-weight: 500;
+    margin: 0px 10px
+}
+
+.carla {
+    grid-column: 2;
+}
+
+.marijn {
+    grid-column: 3;
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 220px auto;
+    grid-template-rows: 30px;
+    margin: 15px;
+}
+
+.button {
+    display: flex;
+    margin: 15px
+}
+
+.button1 {
+    width: 50%;
+    border-top: 2px solid green;
+    border-left: 2px solid green;
+    border-bottom: 2px solid green;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 3px
+}
+
+.button1 > p {
+    font-size: 18px;
+}
+
+.button2 {
+    width: 50%;
+    border: 2px solid red;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 3px;
+}
+
+.button2 > p {
+    font-size: 18px;
+
+}
